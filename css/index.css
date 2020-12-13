@@ -8,6 +8,10 @@ body {
     cursor: url('../images/sh-portfolio.cur'), auto;
 }
 
+section {
+    padding: 50px;
+}
+
 h1{ 
     font-family: 'Bebas Neue', cursive;
     font-size: 40pt; 
@@ -26,6 +30,11 @@ h3 {
 p { 
     font-family:'Poppins', sans-serif;
     font-size: 12pt;
+    margin-bottom: 2rem;
+}
+
+ul.no-style {
+    list-style-type: circle;
 }
 
 a {
@@ -51,7 +60,8 @@ a:hover {
  }
 
  #menu { 
-     float:right;
+     vertical-align: middle;
+
  }
 
  .yellow {
@@ -112,6 +122,10 @@ a:hover {
     background-color: #FFE600;
  }
 
+ .gray-bg {
+     background-color: #D6DADF;
+ }
+
  .contact {
      position: absolute; 
      bottom: 0; 
@@ -167,6 +181,10 @@ a:hover {
 
  #webpages > a:hover {
      border-bottom: 3px solid black;
+ }
+
+ .col-md > a {
+    text-decoration: underline;
  }
 
  .copy {
